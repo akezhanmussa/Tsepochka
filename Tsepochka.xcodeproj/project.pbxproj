@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C14450924149FB149B7590D /* Pods_Tsepochka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D43272F7BC5A633827CDA93 /* Pods_Tsepochka.framework */; };
+		B01D588F1FEE43CB00C9E820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D588E1FEE43CB00C9E820 /* AppDelegate.swift */; };
+		B01D58911FEE43CB00C9E820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D58901FEE43CB00C9E820 /* ViewController.swift */; };
+		B01D58961FEE43CB00C9E820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01D58951FEE43CB00C9E820 /* Assets.xcassets */; };
+		B01D58991FEE43CB00C9E820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01D58971FEE43CB00C9E820 /* LaunchScreen.storyboard */; };
+		B01D58A41FEE43CB00C9E820 /* TsepochkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D58A31FEE43CB00C9E820 /* TsepochkaTests.swift */; };
+		B01D58AF1FEE43CB00C9E820 /* TsepochkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D58AE1FEE43CB00C9E820 /* TsepochkaUITests.swift */; };
+		B01D58C31FEE454200C9E820 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B01D58C21FEE454200C9E820 /* Podfile */; };
+		B0249A901FEE5AD700AF7D2B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0249A8F1FEE5AD700AF7D2B /* NewsViewController.swift */; };
+		B0249A921FEE5B3700AF7D2B /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0249A911FEE5B3700AF7D2B /* StatisticsViewController.swift */; };
+		B02BE1A81FEE527300DCB5FF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02BE1A71FEE527300DCB5FF /* TabBarViewController.swift */; };
+		B04DF0A01FEFBA14007E1CA5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DF09F1FEFBA14007E1CA5 /* UIColorExtension.swift */; };
+		B04DF0A21FEFBA2E007E1CA5 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DF0A11FEFBA2E007E1CA5 /* UIFontExtension.swift */; };
+		B04DF0A41FEFC87E007E1CA5 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DF0A31FEFC87E007E1CA5 /* InstructionsView.swift */; };
+		B04DF0A61FEFC9B5007E1CA5 /* InstructionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04DF0A51FEFC9B5007E1CA5 /* InstructionsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B01D58A01FEE43CB00C9E820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01D58831FEE43CB00C9E820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01D588A1FEE43CB00C9E820;
+			remoteInfo = Tsepochka;
+		};
+		B01D58AB1FEE43CB00C9E820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B01D58831FEE43CB00C9E820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B01D588A1FEE43CB00C9E820;
+			remoteInfo = Tsepochka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E2B1443EBB4D3BE7E36ED50 /* Pods-Tsepochka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsepochka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tsepochka/Pods-Tsepochka.release.xcconfig"; sourceTree = "<group>"; };
+		7D43272F7BC5A633827CDA93 /* Pods_Tsepochka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tsepochka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D588B1FEE43CB00C9E820 /* Tsepochka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tsepochka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D588E1FEE43CB00C9E820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B01D58901FEE43CB00C9E820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B01D58951FEE43CB00C9E820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B01D58981FEE43CB00C9E820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B01D589A1FEE43CB00C9E820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01D589F1FEE43CB00C9E820 /* TsepochkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TsepochkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D58A31FEE43CB00C9E820 /* TsepochkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TsepochkaTests.swift; sourceTree = "<group>"; };
+		B01D58A51FEE43CB00C9E820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01D58AA1FEE43CB00C9E820 /* TsepochkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TsepochkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D58AE1FEE43CB00C9E820 /* TsepochkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TsepochkaUITests.swift; sourceTree = "<group>"; };
+		B01D58B01FEE43CB00C9E820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01D58C21FEE454200C9E820 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B0249A8F1FEE5AD700AF7D2B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		B0249A911FEE5B3700AF7D2B /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		B02BE1A71FEE527300DCB5FF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B04DF09F1FEFBA14007E1CA5 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B04DF0A11FEFBA2E007E1CA5 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		B04DF0A31FEFC87E007E1CA5 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		B04DF0A51FEFC9B5007E1CA5 /* InstructionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsTableViewCell.swift; sourceTree = "<group>"; };
+		BEBFF8B0087B2C9EF64DBF5C /* Pods-Tsepochka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tsepochka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tsepochka/Pods-Tsepochka.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01D58881FEE43CB00C9E820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C14450924149FB149B7590D /* Pods_Tsepochka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D589C1FEE43CB00C9E820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D58A71FEE43CB00C9E820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C05ECFC1AC2BA76B1EF633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFF8B0087B2C9EF64DBF5C /* Pods-Tsepochka.debug.xcconfig */,
+				4E2B1443EBB4D3BE7E36ED50 /* Pods-Tsepochka.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8909DD2EC448C0811BF3E0F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D43272F7BC5A633827CDA93 /* Pods_Tsepochka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B01D58821FEE43CB00C9E820 = {
+			isa = PBXGroup;
+			children = (
+				B01D58C21FEE454200C9E820 /* Podfile */,
+				B01D588D1FEE43CB00C9E820 /* Tsepochka */,
+				B01D58A21FEE43CB00C9E820 /* TsepochkaTests */,
+				B01D58AD1FEE43CB00C9E820 /* TsepochkaUITests */,
+				B01D588C1FEE43CB00C9E820 /* Products */,
+				83C05ECFC1AC2BA76B1EF633 /* Pods */,
+				8909DD2EC448C0811BF3E0F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B01D588C1FEE43CB00C9E820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01D588B1FEE43CB00C9E820 /* Tsepochka.app */,
+				B01D589F1FEE43CB00C9E820 /* TsepochkaTests.xctest */,
+				B01D58AA1FEE43CB00C9E820 /* TsepochkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01D588D1FEE43CB00C9E820 /* Tsepochka */ = {
+			isa = PBXGroup;
+			children = (
+				B01D588E1FEE43CB00C9E820 /* AppDelegate.swift */,
+				B01D58BE1FEE443500C9E820 /* Models */,
+				B01D58BD1FEE443000C9E820 /* Views */,
+				B01D58BC1FEE442700C9E820 /* Controllers */,
+				B01D58BF1FEE443A00C9E820 /* Extensions */,
+				B01D58C01FEE444100C9E820 /* Utils */,
+				B01D58C11FEE447B00C9E820 /* Supporting Files */,
+				B01D589A1FEE43CB00C9E820 /* Info.plist */,
+			);
+			path = Tsepochka;
+			sourceTree = "<group>";
+		};
+		B01D58A21FEE43CB00C9E820 /* TsepochkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B01D58A31FEE43CB00C9E820 /* TsepochkaTests.swift */,
+				B01D58A51FEE43CB00C9E820 /* Info.plist */,
+			);
+			path = TsepochkaTests;
+			sourceTree = "<group>";
+		};
+		B01D58AD1FEE43CB00C9E820 /* TsepochkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B01D58AE1FEE43CB00C9E820 /* TsepochkaUITests.swift */,
+				B01D58B01FEE43CB00C9E820 /* Info.plist */,
+			);
+			path = TsepochkaUITests;
+			sourceTree = "<group>";
+		};
+		B01D58BC1FEE442700C9E820 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B01D58901FEE43CB00C9E820 /* ViewController.swift */,
+				B02BE1A71FEE527300DCB5FF /* TabBarViewController.swift */,
+				B0249A8F1FEE5AD700AF7D2B /* NewsViewController.swift */,
+				B0249A911FEE5B3700AF7D2B /* StatisticsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B01D58BD1FEE443000C9E820 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B04DF0A31FEFC87E007E1CA5 /* InstructionsView.swift */,
+				B04DF0A51FEFC9B5007E1CA5 /* InstructionsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B01D58BE1FEE443500C9E820 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B01D58BF1FEE443A00C9E820 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B04DF09F1FEFBA14007E1CA5 /* UIColorExtension.swift */,
+				B04DF0A11FEFBA2E007E1CA5 /* UIFontExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B01D58C01FEE444100C9E820 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B01D58C11FEE447B00C9E820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B01D58971FEE43CB00C9E820 /* LaunchScreen.storyboard */,
+				B01D58951FEE43CB00C9E820 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01D588A1FEE43CB00C9E820 /* Tsepochka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01D58B31FEE43CB00C9E820 /* Build configuration list for PBXNativeTarget "Tsepochka" */;
+			buildPhases = (
+				3AE09B6B2506D8BB48E89C5E /* [CP] Check Pods Manifest.lock */,
+				B01D58871FEE43CB00C9E820 /* Sources */,
+				B01D58881FEE43CB00C9E820 /* Frameworks */,
+				B01D58891FEE43CB00C9E820 /* Resources */,
+				DFCB7C860C36BF8B28540E17 /* [CP] Embed Pods Frameworks */,
+				D0C574B0A54B1493A503D35E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tsepochka;
+			productName = Tsepochka;
+			productReference = B01D588B1FEE43CB00C9E820 /* Tsepochka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B01D589E1FEE43CB00C9E820 /* TsepochkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01D58B61FEE43CB00C9E820 /* Build configuration list for PBXNativeTarget "TsepochkaTests" */;
+			buildPhases = (
+				B01D589B1FEE43CB00C9E820 /* Sources */,
+				B01D589C1FEE43CB00C9E820 /* Frameworks */,
+				B01D589D1FEE43CB00C9E820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01D58A11FEE43CB00C9E820 /* PBXTargetDependency */,
+			);
+			name = TsepochkaTests;
+			productName = TsepochkaTests;
+			productReference = B01D589F1FEE43CB00C9E820 /* TsepochkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B01D58A91FEE43CB00C9E820 /* TsepochkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01D58B91FEE43CB00C9E820 /* Build configuration list for PBXNativeTarget "TsepochkaUITests" */;
+			buildPhases = (
+				B01D58A61FEE43CB00C9E820 /* Sources */,
+				B01D58A71FEE43CB00C9E820 /* Frameworks */,
+				B01D58A81FEE43CB00C9E820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B01D58AC1FEE43CB00C9E820 /* PBXTargetDependency */,
+			);
+			name = TsepochkaUITests;
+			productName = TsepochkaUITests;
+			productReference = B01D58AA1FEE43CB00C9E820 /* TsepochkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01D58831FEE43CB00C9E820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mad;
+				TargetAttributes = {
+					B01D588A1FEE43CB00C9E820 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B01D589E1FEE43CB00C9E820 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B01D588A1FEE43CB00C9E820;
+					};
+					B01D58A91FEE43CB00C9E820 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B01D588A1FEE43CB00C9E820;
+					};
+				};
+			};
+			buildConfigurationList = B01D58861FEE43CB00C9E820 /* Build configuration list for PBXProject "Tsepochka" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01D58821FEE43CB00C9E820;
+			productRefGroup = B01D588C1FEE43CB00C9E820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01D588A1FEE43CB00C9E820 /* Tsepochka */,
+				B01D589E1FEE43CB00C9E820 /* TsepochkaTests */,
+				B01D58A91FEE43CB00C9E820 /* TsepochkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01D58891FEE43CB00C9E820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D58C31FEE454200C9E820 /* Podfile in Resources */,
+				B01D58991FEE43CB00C9E820 /* LaunchScreen.storyboard in Resources */,
+				B01D58961FEE43CB00C9E820 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D589D1FEE43CB00C9E820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D58A81FEE43CB00C9E820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE09B6B2506D8BB48E89C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tsepochka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C574B0A54B1493A503D35E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tsepochka/Pods-Tsepochka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCB7C860C36BF8B28540E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tsepochka/Pods-Tsepochka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingTabBar/FoldingTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Neon/Neon.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyAttributes/SwiftyAttributes.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeBack/SwipeBack.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Neon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAttributes.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeBack.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tsepochka/Pods-Tsepochka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01D58871FEE43CB00C9E820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D58911FEE43CB00C9E820 /* ViewController.swift in Sources */,
+				B04DF0A41FEFC87E007E1CA5 /* InstructionsView.swift in Sources */,
+				B0249A921FEE5B3700AF7D2B /* StatisticsViewController.swift in Sources */,
+				B02BE1A81FEE527300DCB5FF /* TabBarViewController.swift in Sources */,
+				B04DF0A21FEFBA2E007E1CA5 /* UIFontExtension.swift in Sources */,
+				B01D588F1FEE43CB00C9E820 /* AppDelegate.swift in Sources */,
+				B04DF0A61FEFC9B5007E1CA5 /* InstructionsTableViewCell.swift in Sources */,
+				B0249A901FEE5AD700AF7D2B /* NewsViewController.swift in Sources */,
+				B04DF0A01FEFBA14007E1CA5 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D589B1FEE43CB00C9E820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D58A41FEE43CB00C9E820 /* TsepochkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01D58A61FEE43CB00C9E820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01D58AF1FEE43CB00C9E820 /* TsepochkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B01D58A11FEE43CB00C9E820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01D588A1FEE43CB00C9E820 /* Tsepochka */;
+			targetProxy = B01D58A01FEE43CB00C9E820 /* PBXContainerItemProxy */;
+		};
+		B01D58AC1FEE43CB00C9E820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B01D588A1FEE43CB00C9E820 /* Tsepochka */;
+			targetProxy = B01D58AB1FEE43CB00C9E820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B01D58971FEE43CB00C9E820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01D58981FEE43CB00C9E820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B01D58B11FEE43CB00C9E820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B01D58B21FEE43CB00C9E820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D58B41FEE43CB00C9E820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBFF8B0087B2C9EF64DBF5C /* Pods-Tsepochka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tsepochka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadsoul.Tsepochka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D58B51FEE43CB00C9E820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2B1443EBB4D3BE7E36ED50 /* Pods-Tsepochka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tsepochka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadsoul.Tsepochka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B01D58B71FEE43CB00C9E820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TsepochkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadsoul.TsepochkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsepochka.app/Tsepochka";
+			};
+			name = Debug;
+		};
+		B01D58B81FEE43CB00C9E820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TsepochkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadsoul.TsepochkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tsepochka.app/Tsepochka";
+			};
+			name = Release;
+		};
+		B01D58BA1FEE43CB00C9E820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TsepochkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadsoul.TsepochkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tsepochka;
+			};
+			name = Debug;
+		};
+		B01D58BB1FEE43CB00C9E820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TsepochkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadsoul.TsepochkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tsepochka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01D58861FEE43CB00C9E820 /* Build configuration list for PBXProject "Tsepochka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D58B11FEE43CB00C9E820 /* Debug */,
+				B01D58B21FEE43CB00C9E820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01D58B31FEE43CB00C9E820 /* Build configuration list for PBXNativeTarget "Tsepochka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D58B41FEE43CB00C9E820 /* Debug */,
+				B01D58B51FEE43CB00C9E820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01D58B61FEE43CB00C9E820 /* Build configuration list for PBXNativeTarget "TsepochkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D58B71FEE43CB00C9E820 /* Debug */,
+				B01D58B81FEE43CB00C9E820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01D58B91FEE43CB00C9E820 /* Build configuration list for PBXNativeTarget "TsepochkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01D58BA1FEE43CB00C9E820 /* Debug */,
+				B01D58BB1FEE43CB00C9E820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01D58831FEE43CB00C9E820 /* Project object */;
+}
